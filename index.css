@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Nanum+Myeongjo&display=swap');
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+body {
+    background-color: #000;
+    margin: 0;
+    color: #fff;
+}
+
+.first-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    animation-timing-function: ease-out;
+    animation-duration: 3s;
+}
+
+.top-mini-desc {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.top-mini-desc img {
+    margin: 0 32px 0 32px;
+}
+
+.design-desc {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.dev-desc {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.second-page {
+    width: 600px;
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+    font-family: 'Pretendard Variable', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1.5em;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+} 
